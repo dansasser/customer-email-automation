@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Client Login Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #4CAF50;
+        }
+        .subHeader {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .footer {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .important {
+            font-weight: bold;
+        }
+        .signature {
+            font-size: 0.8em;
+            color: #666;
+        }
+        .signature strong {
+            font-weight: bold;
+        }
+        .signature-details {
+            font-size: 0.7em; /* Adjust as needed for smaller text */
+            line-height: 1.2; /* Adjust line-height to reduce space between lines */
+            margin: 0; /* Remove extra margin */
+            padding: 0; /* Remove extra padding */
+        }
+        .note{
+            font-style: italic;
+            background-color: #efe127;
+            color: #000;
+            padding: 0;
+            font-size: 0.8em;
+            margin-top: -10px;
+            margin-bottom: 0;
+            padding: 0;
+
+        }
+        p{
+            line-height: 1.2;
+        }
+        li{
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+        .greeting{
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #000;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{companyHeader}}</h1>
+        <p>Dear {{name}},</p>
+
+        <p>We are pleased to provide you with the necessary credentials to access your asset directory for secure file transfers. Please use the following details to connect to your SFTP account:</p>
+
+        <div class="section">
+            <h2>Connection Details</h2>
+            <p><strong>Host:</strong> {{host}}</p>
+            <p><strong>Port:</strong> {{port}}</p>
+            <p><strong>Access:</strong> SFTP only</p>
+        </div>
+
+        <div class="section">
+            <h2>Login Information</h2>
+            <p><strong>Username:</strong> {{userName}}</p>
+            <p><strong>Password:</strong> &nbsp;{{temporaryPassword}}</p>
+        </div>
+
+        <div class="section">
+            <h2>Uploading Assets</h2>
+            <p>You can securely transfer your assets to {{companyHeader}} using your asset directory. Please refer to our guide for instructions on using WinSCP:</p>
+            <p><a href="https://dansasser.me/posts/mastering-secure-file-transfers-with-winscp/" target="_blank">Mastering Secure File Transfers with WinSCP</a></p>
+            <p>Your temporary subdomain for accessing your assets is: <strong>{{subDomain}}</strong></p>
+        </div>
+
+        <div class="section">
+            <h2>Domain and DNS Information</h2>
+            <p>As mentioned in your orientation email, if you choose not to have {{companyHeader}} purchase the domain for you, please provide us access to your DNS provider so we can set up your domain properly.</p>
+        </div>
+
+        <div class="section">
+            <h2>Access Permissions</h2>
+            <p>You have <strong>read-only</strong> access to the entire site as long as it is managed by {{companyHeader}}. This is to ensure the security and stability of the site, avoiding any bugs or downtime. You will always have <strong>read-write</strong> permissions in your asset directory.</p>
+        </div>
+
+        <div class="section">
+            <h2>Developmet Area</h2>
+            <p>This is where I will be showcasing different ideas and projects. I will be adding more to this as time goes on.</p>
+            <p><a href="{{subDomain}}" target="_blank">Development Site</a></p>
+            <p>Log into this website with the username: <strong>{{devUserName}}</strong> and the password: <strong>{{devPassword}}</strong><br><span class="signature-details">This is not the same as your SFTP password.</span></p>
+        </div>
+
+        <div class="footer">
+            <p>If you have any questions or need further assistance, please do not hesitate to contact us.</p>
+            <p class="signature">
+                <strong>Best Regards,</strong><br>
+                <strong>{{owner}} | {{ownerTitle}}</strong><br>
+                    {{company}}<br>
+                    <b><i>Location</i></b> | {{location}}<br>
+                    <b><i>Phone</i></b> | {{phone}}<br>
+                    <b><i>Official Website</i></b> | <a href="{{website}}" target="_blank">{{website}}</a>
+                    <hr>
+                <span class="signature-details">
+                    <p>This email and any attachments are intended only for the use of the individual or entity to whom they are addressed. If you have received this email in error, please notify the sender and delete the email and any attachments immediately. You should not use, disclose, distribute, print, or copy this email or any attachments without the permission of the sender. {{company}} is not liable for any damages resulting from the use of this email or any attachments.</p>
+                    <p class="center">Contact: <a href="mailto:{{companyEmail}}">{{companyEmail}}</a></p>
+                    <p class="center">copyright {{year}} {{companyHeader}}. All rights reserved.</p>
+                    <p class="center">{{companyHeader}} is a registered trademark of {{companyHeader}}.</p>
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
