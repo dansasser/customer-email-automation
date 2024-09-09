@@ -1,32 +1,12 @@
 {
-    "clients": [
-      {
-        "name": "Sasser Enterprises",
-        "userName": "sasserdev",
-        "host": "ssh.gorombo.com",
-        "domain": "gorombo.com",
-        "subDomain": "sasserdev.gorombo.com",
-        "email": "sasserenterprises@gmail.com",
-        "password": "TempPassword1"
-      },
-      {
-        "name": "Amy Sasser",
-        "userName": "anysasser",
-        "host": "ssh.gorombo.com",
-        "domain": "myhoney.com",
-        "subDomain": "amy.myhoney.com",
-        "email": "amysasser29@gmail.com",
-        "password": "TempPassword1"
-      },
-      {
-        "name": "Christopher Tigges",
-        "userName": "chrisandsonsllc",
-        "host": "ssh.gorombo.com",
-        "domain": "chrisandsonsllc.com",
-        "subDomain": "chrisandsonsllc.gorombo.com",
-        "email": "chrisandsonsllc2222@outlook.com",
-        "password": "ILoveMyCousin9999&&"
-      }
-    ]
-  }
-  
+  "clients": [
+    {
+      "email": "client@gorombo.com",
+      "name": "Client Name",
+      "userName": "clientuser",
+      "host": "smtp.yourserver.com",
+      "domain": "gorombo.com",
+      "password": "temporarypassword"
+    }
+  ]
+}
