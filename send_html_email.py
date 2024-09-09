@@ -20,7 +20,7 @@ SMTP_PORT = int(os.getenv('SMTP_PORT'))  # Ensure port is an integer
 USERNAME = os.getenv('EMAIL_USERNAME')
 PASSWORD = os.getenv('EMAIL_PASSWORD')
 CLIENT_INFO_FILE = os.getenv('CLIENT_INFO_FILE', 'client_info.json')
-cc_address = 'contact@dansasser.me'  # Your CC email address
+cc_address = 'contact@yourdomain.com'  # Your CC email address
 
 # Function to format email addresses with display names
 def address_formatter(name, email):
