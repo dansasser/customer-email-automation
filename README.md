@@ -1,5 +1,8 @@
 
+![cea-py](https://github.com/user-attachments/assets/9c934fb8-d269-4d0c-916c-1d1a153f72da)
 # Customer Email Automation
+<hr>
+
 
 This project includes three scripts designed to facilitate sending HTML emails with dynamic content:
 
