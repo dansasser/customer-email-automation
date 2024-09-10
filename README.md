@@ -144,6 +144,8 @@ The script replaces the following placeholders in the HTML template:
 - `{{domain}}`: Domain information
 - `{{temporaryPassword}}`: The password image
 
+![cea-email](https://github.com/user-attachments/assets/e4ea3442-1bfe-48db-80dc-d55c23e18671)
+
 ## Batch Script for Windows
 
 The Windows batch script `mailer.bat` simplifies the process of selecting a client and template from a list and sending the email.
@@ -191,6 +193,8 @@ Email successfully sent to user1@gorombo.com
 ```plaintext
 Failed to send email to user1@gorombo.com
 ```
+
+![cea-last](https://github.com/user-attachments/assets/fb53daeb-7151-483d-9a01-d0ae34f15a9a)
 
 ## Shell Script for Unix-like Systems
 
@@ -262,18 +266,28 @@ This project is licensed under the MIT License.
 
 For more insights on web development tools, asset management, and the Astro SSR SPA Template, visit [Dan Sasser’s Blog](https://dansasser.me) and explore [The Astro SSR SPA Template](https://astro-ssr-spa.org).
 
-## **Resources**
+### References
+
+- [Customer Email Automation](https://github.com/dansasser/customer-email-automation#readme) - The Customer Email Automation Documentation
+
+- [GOROMBO](https://gorombo.com) - GOROMBO Web Development | Email Hosting | VPS Hosting | Cloud Hosting | Custom Software | API Integration
+
+- [GitHub](https://github.com/dansasser) - a link to my GitHub profile
+
+- [Customer Email Automation Article](https://dansasser.me/posts/unlocking-the-power-of-automated-customer-emails/) - My current article about email automation
 
 - [dev.to](https://dev.to/dansasser/) - a link to my dev.to profile
-- [LinkedIn](https://www.linkedin.com/in/dansasser/) - a link to my LinkedIn profile
-- [GitHub](https://github.com/dansasser) - a link to my GitHub profile
-- [Medium](https://medium.com/@dansasser) - a link to my current Medium profile
 
-## Support My Work
+- [LinkedIn](https://www.linkedin.com/in/dansasser/) - a link to my LinkedIn profile
+
+- [Medium](https://medium.com/@dansasser) - a link to my Medium profile
+
+- [Substack](https://dansasser.substack.com) - a link to my Substack
+
+### Support My Work
 
 If you enjoy my projects and want to support my work, consider buying me a coffee!
 
 <a href="https://www.buymeacoffee.com/dansasser" target="_blank">
     <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20Me%20a%20Coffee&emoji=&slug=dansasser&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me a Coffee" />
 </a>
-
