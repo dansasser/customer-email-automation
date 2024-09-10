@@ -1,5 +1,6 @@
 
-![cea-py](https://github.com/user-attachments/assets/9c934fb8-d269-4d0c-916c-1d1a153f72da)
+![cea-py](https://github.com/user-attachments/assets/9c1057e5-6e82-4fb7-9363-a3b2b8ca365a)
+
 # Customer Email Automation
 <hr>
 
